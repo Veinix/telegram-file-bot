@@ -1,0 +1,24 @@
+{
+    "name": "backend",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "build": "tsc && tsup",
+        "start": "node --import=tsx --watch index.ts"
+    },
+    "dependencies": {
+        "@types/dotenv": "^6.1.1",
+        "@types/node-telegram-bot-api": "^0.64.11",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "~4.16.1",
+        "mongoose": "^8.19.2",
+        "node-telegram-bot-api": "^0.66.0"
+    },
+    "devDependencies": {
+        "@types/cors": "2.8.19",
+        "@types/express": "5.0.3",
+        "tsx": "4.20.4",
+        "typescript": "5.9.2"
+    }
+}
