@@ -63,7 +63,26 @@ Server running on port http://localhost:{PORT}
 
 ## Further Ideas
 
-TBD
+### Added Chat Functionality
+
+More complex chat abilities to the bot such as "remembering" chat history, being able to respond to questions
+
+Adding a "help" or "guide" to the chat itself, explaning the different abilities the user can take
+
+Adding language detection, options, etc. (i18n)
+
+### Cloud Storage / Users
+
+Adding user functionality allowing the user to login and be able to see their images, and download them from wherever
+
+### Security / Content Monitoring
+
+It would be a good idea to prevent users from uploading files that are too large, not "typical" documents or images (e.g. exe, bash, ini) that may prove harmful
+
+### WebSockets (Live updates)
+
+When a user uploads an image via the bot on Telegram, a better UX would be to have the page update in real-time using Websockets 
+
 
 ## Stack
 
