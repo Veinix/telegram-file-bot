@@ -14,15 +14,17 @@ The bot will also know basic information of all the files, including:
 
 * Filename
 * File type
-* Name of the sender (If exists)
+* Name of the sender 
 * Upload date
 * Path to file on disk
 
-The backend is a MongoDb (or a simple JSON file). There is at least one endpoint that returns a JSON with the file list. The files will be saved in a local folder (e.g. ```uploads/```)
+The database is a simple JSON file. There is one endpoint ```/files``` that returns a JSON with the file metadata. The files and documents are saved in a local folder (```uploads/```)
 
 The frontend is a React App that displays the files from the server in a grid view. Each grid item will present a preview of the file. Pictures will be shown as a thumbnail. PDFs will be shown as a direct preview as an iframe or a PDF display component. Clicking on a file will let the user view it or download it. It will have a simple UI, that is clean, oragnized, and nice to look at.
 
 ## Further Ideas
+
+TBD
 
 ## Stack
 
